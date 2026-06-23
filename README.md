@@ -1,2 +1,2 @@
-# Siege-of-Eldorias
+# Siege-of-Eldoria
 My game
