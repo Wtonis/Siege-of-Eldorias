@@ -11,3 +11,4 @@ saves/*.json
 savegame.json
 .vscode/
 .idea/
+settings.json
