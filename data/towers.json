@@ -1,0 +1,94 @@
+{
+  "archer": {
+    "levels": [
+      { "cost": 70, "range": 160, "fire_rate": 2.0, "damage": 12, "damage_type": "physical", "projectile_speed": 600, "splash_radius": 0 },
+      { "cost": 60, "range": 180, "fire_rate": 2.4, "damage": 18, "damage_type": "physical", "projectile_speed": 650, "splash_radius": 0 },
+      { "cost": 90, "range": 200, "fire_rate": 2.8, "damage": 26, "damage_type": "physical", "projectile_speed": 700, "splash_radius": 0 }
+    ],
+    "branches": {
+      "poison": {
+        "name": "Ядовитый",
+        "unlock_cost": 2,
+        "levels": [
+          { "cost": 150, "range": 210, "fire_rate": 3.0, "damage": 30, "damage_type": "physical", "projectile_speed": 740, "effect": { "kind": "poison", "magnitude": 24, "duration": 4 } }
+        ]
+      },
+      "musket": {
+        "name": "Мушкетёр",
+        "unlock_cost": 2,
+        "levels": [
+          { "cost": 160, "range": 320, "fire_rate": 1.8, "damage": 70, "damage_type": "physical", "projectile_speed": 960 }
+        ]
+      }
+    }
+  },
+  "mage": {
+    "levels": [
+      { "cost": 100, "range": 150, "fire_rate": 1.0, "damage": 22, "damage_type": "magic", "projectile_speed": 500, "splash_radius": 0 },
+      { "cost": 85, "range": 165, "fire_rate": 1.2, "damage": 32, "damage_type": "magic", "projectile_speed": 540, "splash_radius": 0 },
+      { "cost": 120, "range": 180, "fire_rate": 1.4, "damage": 46, "damage_type": "magic", "projectile_speed": 580, "splash_radius": 0 }
+    ],
+    "branches": {
+      "frost": {
+        "name": "Ледяной",
+        "unlock_cost": 3,
+        "levels": [
+          { "cost": 170, "range": 190, "fire_rate": 1.4, "damage": 46, "damage_type": "magic", "projectile_speed": 600, "splash_radius": 95, "effect": { "kind": "slow", "magnitude": 0.45, "duration": 2.5 } }
+        ]
+      },
+      "archmage": {
+        "name": "Архимаг",
+        "unlock_cost": 2,
+        "levels": [
+          { "cost": 170, "range": 200, "fire_rate": 1.6, "damage": 80, "damage_type": "magic", "projectile_speed": 640 }
+        ]
+      }
+    }
+  },
+  "bomber": {
+    "levels": [
+      { "cost": 120, "range": 140, "fire_rate": 0.6, "damage": 26, "damage_type": "physical", "projectile_speed": 350, "splash_radius": 70 },
+      { "cost": 100, "range": 150, "fire_rate": 0.7, "damage": 36, "damage_type": "physical", "projectile_speed": 380, "splash_radius": 80 },
+      { "cost": 140, "range": 160, "fire_rate": 0.8, "damage": 50, "damage_type": "physical", "projectile_speed": 410, "splash_radius": 95 }
+    ],
+    "branches": {
+      "napalm": {
+        "name": "Напалм",
+        "unlock_cost": 3,
+        "levels": [
+          { "cost": 180, "range": 165, "fire_rate": 0.9, "damage": 60, "damage_type": "physical", "projectile_speed": 440, "splash_radius": 105, "effect": { "kind": "poison", "magnitude": 24, "duration": 3 } }
+        ]
+      },
+      "heavy": {
+        "name": "Тяжёлый",
+        "unlock_cost": 2,
+        "levels": [
+          { "cost": 190, "range": 175, "fire_rate": 0.8, "damage": 95, "damage_type": "physical", "projectile_speed": 460, "splash_radius": 130 }
+        ]
+      }
+    }
+  },
+  "warrior": {
+    "levels": [
+      { "cost": 80, "range": 110, "soldier": { "count": 3, "hp": 60, "damage": 8, "attack_rate": 1.0, "respawn": 6 } },
+      { "cost": 70, "range": 120, "soldier": { "count": 3, "hp": 85, "damage": 11, "attack_rate": 1.1, "respawn": 5 } },
+      { "cost": 100, "range": 130, "soldier": { "count": 4, "hp": 110, "damage": 14, "attack_rate": 1.2, "respawn": 4 } }
+    ],
+    "branches": {
+      "guardian": {
+        "name": "Латники",
+        "unlock_cost": 2,
+        "levels": [
+          { "cost": 150, "range": 135, "soldier": { "count": 4, "hp": 200, "damage": 16, "attack_rate": 1.2, "respawn": 4 } }
+        ]
+      },
+      "berserker": {
+        "name": "Берсерки",
+        "unlock_cost": 2,
+        "levels": [
+          { "cost": 150, "range": 135, "soldier": { "count": 5, "hp": 120, "damage": 28, "attack_rate": 1.5, "respawn": 4 } }
+        ]
+      }
+    }
+  }
+}

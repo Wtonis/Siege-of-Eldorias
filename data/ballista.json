@@ -1,0 +1,7 @@
+{
+  "levels": [
+    { "cost": 0,   "damage": 260, "reload": 20.0, "pierce": 5, "bolt_speed": 820, "range": 1500, "damage_type": "true" },
+    { "cost": 160, "damage": 360, "reload": 17.0, "pierce": 6, "bolt_speed": 880, "range": 1500, "damage_type": "true" },
+    { "cost": 220, "damage": 480, "reload": 15.0, "pierce": 8, "bolt_speed": 940, "range": 1500, "damage_type": "true" }
+  ]
+}

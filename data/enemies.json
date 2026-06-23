@@ -1,0 +1,45 @@
+{
+  "goblin": {
+    "max_hp": 60, "speed": 70, "reward": 6, "base_damage": 1,
+    "attack_damage": 6, "attack_rate": 1.0, "resistances": {}
+  },
+  "scout": {
+    "max_hp": 45, "speed": 140, "reward": 5, "base_damage": 1,
+    "attack_damage": 5, "attack_rate": 1.2, "radius": 11, "resistances": {}
+  },
+  "orc": {
+    "max_hp": 140, "speed": 45, "reward": 12, "base_damage": 2,
+    "attack_damage": 14, "attack_rate": 0.8, "resistances": { "physical": 0.4 }
+  },
+  "wisp": {
+    "max_hp": 80, "speed": 95, "reward": 10, "base_damage": 1,
+    "attack_damage": 8, "attack_rate": 1.2, "resistances": { "magic": 0.5 }
+  },
+  "knight": {
+    "max_hp": 170, "speed": 55, "reward": 15, "base_damage": 2,
+    "attack_damage": 12, "attack_rate": 0.9, "resistances": { "physical": 0.6 }
+  },
+  "shaman": {
+    "max_hp": 130, "speed": 60, "reward": 15, "base_damage": 2,
+    "attack_damage": 10, "attack_rate": 1.0, "resistances": { "magic": 0.6 }
+  },
+  "raider": {
+    "max_hp": 150, "speed": 52, "reward": 16, "base_damage": 2,
+    "attack_damage": 26, "attack_rate": 1.1, "resistances": {}
+  },
+  "troll": {
+    "max_hp": 360, "speed": 34, "reward": 26, "base_damage": 3,
+    "attack_damage": 20, "attack_rate": 0.7, "radius": 18,
+    "resistances": { "physical": 0.5 }
+  },
+  "ogre": {
+    "max_hp": 1200, "speed": 38, "reward": 60, "base_damage": 3,
+    "attack_damage": 32, "attack_rate": 0.8, "radius": 26,
+    "resistances": { "physical": 0.35, "magic": 0.2 }
+  },
+  "dragon": {
+    "max_hp": 4000, "speed": 32, "reward": 200, "base_damage": 6,
+    "attack_damage": 55, "attack_rate": 0.7, "radius": 36,
+    "resistances": { "physical": 0.45, "magic": 0.45 }
+  }
+}

@@ -1,0 +1,6 @@
+[
+  { "tower": "archer", "neighbor": "archer", "name": "Строй стрелков", "fire_rate": 1.2 },
+  { "tower": "mage", "neighbor": "mage", "name": "Резонанс магии", "damage": 1.2 },
+  { "tower": "warrior", "neighbor": "mage", "name": "Зачарование", "soldier_hp": 1.3, "soldier_damage": 1.15 },
+  { "tower": "bomber", "neighbor": "mage", "name": "Заряд взрывчатки", "splash": 1.25 }
+]

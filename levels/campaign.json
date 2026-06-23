@@ -1,0 +1,7 @@
+[
+  { "id": "level1", "file": "level1.json", "name": "Лесная тропа",   "map_pos": [200, 230] },
+  { "id": "level2", "file": "level2.json", "name": "Горный перевал", "map_pos": [430, 330] },
+  { "id": "level3", "file": "level3.json", "name": "Старый мост",    "map_pos": [650, 220] },
+  { "id": "level4", "file": "level4.json", "name": "Руины",          "map_pos": [870, 340] },
+  { "id": "level5", "file": "level5.json", "name": "Врата замка",    "map_pos": [1080, 230] }
+]
